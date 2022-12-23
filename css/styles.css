@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background-size: 1920px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+td, th { 
+    border: 2px solid black;
+}
+
+h1 {
+    text-align: center;
+    background-color: aqua;
+    border: 2px solid lightgreen;
+    border-radius: 20px;
+}
+
+caption {
+    border: 2px solid lightgreen ;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.ftable {
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.stable {
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.ttable {
+    border-collapse: collapse;
+    background-color: white;
+}
+
+img {
+    height: 20px;
+    width: 40px;
+}
+
+thead {
+    background-color: lightskyblue;
+}
+
+
